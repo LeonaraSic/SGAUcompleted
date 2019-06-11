@@ -1,0 +1,179 @@
+*{margin: 0; padding: 0; box-sizing: border-box}
+
+#ConteudoFlex{width: 100%; height: 625px;  display: flex; flex-direction: row }
+
+#ImgHeader, #ImgHeader img { width: 100%; height: 625px; background-size: cover}
+
+#ImgLogo{display: flex; flex-direction: row; justify-content: center; }
+
+#ImgLogo img{ height: 200px; }
+
+.border{border-bottom: solid 1px #dadada;padding: 3px; opacity: 0.4;}
+
+/* ############################# Icone do instagram e facebook ############################# */
+.icons
+{ 
+    width: 100%;  
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    
+}
+
+.icons .fab{padding: 10px; color: #fafafa}
+
+.icons .fa-instagram, .fa-whatsapp{ font-size: 1.1em}
+
+.icons .fab:hover{color: #cdd5d8 }
+
+/* ############################## Menu lateral ( vertical ) do blog ############################ */
+#Menu_Blog
+{ 
+    width: 25%;
+    height: 625px;
+    background-color: #1CB7A5;
+    display: block;
+}
+
+#Menu_Blog ul 
+{
+    list-style: none; 
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 10px;
+}
+
+#Menu_Blog li{ display: flex; justify-content: center}
+
+#Menu_Blog ul li a
+{
+    text-decoration: none; 
+    color: #fafafa; 
+    padding: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Menu_Blog li a:hover{ color: #a5efe7}
+
+
+/* ############################### Menu Responsivo ############################### */
+
+label[for="btBlogMenu"]
+{
+     padding: 5px;
+     background-color: #1CB6A4;
+     color: #fafafa;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: 30px;
+     cursor: pointer;
+     width: 50px;
+     height: 625px;
+    
+}
+
+#btBlogMenu{display: none}
+
+label[for="btBlogMenu"]{display: none}
+
+.logoSGAU
+{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 25px;
+    color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: none
+}
+
+/* #################### Texto h1 das imagens de quando entra no blog ##################### */
+#TextoH1 
+{
+    width:100%; 
+    height:625px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center
+}
+
+#Background
+{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: rgba(250, 250, 250, 0.829);
+    border-radius: 20px;
+}
+
+#TextoH1 h1{color: rgb(34, 185, 114); font-family: Arial, Helvetica, sans-serif; font-weight: 100 }
+
+/* ################################ Páginas do blog ############################### */
+.Conteudo{width: 100%; height: 625px; overflow-y: scroll;  }
+
+.Textos{padding: 10px; color:  rgba(61, 60, 60, 0.986); font-family: Arial, Helvetica, sans-serif; }
+
+.BackgroundColor{ background-color: rgba(250, 250, 250, 0.602);border-radius: 20px;}
+
+/* ####################### Imagem de fundo de cada página do blog ################### */
+.ArborizaImagem
+{
+     height:625px; 
+     background-size: cover; 
+     background-image: url(../../../img/arboriza.png)
+}
+
+.ArborizaImagem2
+{
+     height:625px; 
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center; 
+     background-image: url(../../../img/amapa02.png);
+ 
+}
+
+.ArborizaImagem3
+{
+     height:625px; 
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center; 
+     background-image: url(../../../img/praça.png);
+     
+}
+
+/* ################### Unindo os  */
+hgroup{ text-align: center; margin-bottom: 25px; font-size: 18px }
+
+p{padding: 3px;text-indent: 50px; margin-bottom: 10px; font-size: 18px; text-align: justify}
+
+/* ############### Imagens que estão em baixo de algum conteúdo das páginas ################# */
+.ImagensProjetos, .ImagensSemam{width: 100%; height: 300px;display: flex; flex-direction: row; justify-content: space-around; align-items: center}
+
+.ImagensProjetos img, .ImagensSemam img{width: 35%; height: 250px; border-radius: 20px; display: flex; flex-direction: row; justify-content: space-around; align-items: center}
+
+.ImagensProjetos img:hover{transform: scaleX(-1);}
+
+.VantagensLista ul li{margin: 0 20px 0 20px;  padding: 10px; font-size: 18px}
+
+/* ######################### Introdução ao blog com animação de imagens #################### */
+#ImgHeader
+{ 
+  animation-name: example;
+  animation-direction:normal ;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+     
+} 
+   
+@keyframes example 
+{
+  0%  {background-image: url(../../../img/slide3.jpg);}
+  50%  {background-image: url(../../../img/slide2.jpg);}
+  100% {background-image: url(../../../img/slide1.jpg);} 
+}

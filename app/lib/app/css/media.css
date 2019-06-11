@@ -1,0 +1,475 @@
+@media (max-width:1400px)
+{
+
+     #TextoH1{font-size: 15px}
+
+  
+}
+
+@media (max-width:1300px)
+{
+
+     #TextoH1{font-size: 13px}
+}
+
+@media (max-width:1085px)
+{
+
+     #TextoH1{font-size: 12px}
+        /* ########################## LINKS ENTRAR E CADASTRAR ######################### */
+   
+        .form{width: 35%}
+   
+        .menuLogin{ width: 30%}
+}
+
+@media (max-width:977px)
+{
+
+     #TextoH1{font-size: 10px}
+}
+
+@media (max-width:827px)
+{
+
+     #TextoH1{font-size: 9px}
+}
+
+@media (max-width:800px)
+{
+
+     .menu{width: 100%; display: flex; flex-direction: column; }
+
+     #logo{ width: 100%  ;display: flex; flex-direction: column}
+
+     .menu  .menuTop {display: flex; flex-direction: column; padding: 0}
+
+     label[for="btnMenuResponsivo"]{display: block}
+
+     #btnMenuResponsivo:checked ~ .menu{margin-left: 0}
+
+     .menu{margin-left: -100%; transition: all .4s}
+
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide{margin-top: -370px; z-index: -1;}
+
+     #voltar, #avancar{display: none}
+
+     #slide p
+     {
+         position: absolute;
+         top: 270px; 
+         left:120px;
+         font-size: 14px;
+         height: 40px;
+     }
+
+     /* ########### CHAMADAS DO SISTEMA ############## */
+
+     .container
+     {
+          margin-top: -150px;
+          display: flex;
+          flex-direction: column
+     }
+
+     .container01, .container02
+     {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center
+          
+     }
+
+     .conteudo
+     {
+          height: 200px;
+          width: 60%
+     }
+
+     /* ################# FOOTER ##################### */
+
+     #rodape{height: 400px; display: flex; flex-direction: column}
+
+     .textosRodape{height: 400px;display: flex; flex-direction: column; justify-items: center; align-items: center }
+
+
+     /* ################### PARTE DO BLOG ################# */
+
+     #ConteudoFlex{width: 100%; display: flex; flex-direction: column; }
+
+     #Menu_Blog{ width: 100%; }
+
+     .Conteudo, #ImgHeader{margin-top: -410px; z-index: -1; overflow:visible;}
+
+     #TextoH1{font-size: 10px}
+
+     .ArborizaImagem, .ArborizaImagem2, .ArborizaImagem3{background-image: none}
+
+     label[for="btBlogMenu"]{display: block; margin: 10px 0 0 10px;}
+
+     #btBlogMenu:checked ~ #Menu_Blog{margin-left: 0}
+
+     #Menu_Blog{margin-left:  -100%; transition: all .4s}
+
+     .icons, .border, #ImgLogo{display: none}
+
+     .logoSGAU
+     { 
+          display: block;
+          display: flex; 
+          flex-direction: column; 
+          justify-content: center; 
+          align-items: center;
+          padding-top: 40px 
+     }
+
+     .ImagensProjetos, .ImagensSemam{width: 100%; height: 500px;display: flex; flex-direction: column; justify-content: space-around; align-items: center}
+
+     .ImagensProjetos img, .ImagensSemam img{width: 50%; height: 200px; border-radius: 20px; display: flex; flex-direction: row; justify-content: space-around; align-items: center}
+
+
+     /* ########################## LINKS ENTRAR E CADASTRAR ######################### */
+     
+     .form{width: 40%}
+
+     .menuLogin{ width: 35%}
+     
+}
+
+
+@media (max-width:750px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 260px; 
+         left:100px;
+         font-size: 14px;
+         height: 40px;
+     }
+
+     /* ########################## LINKS ENTRAR E CADASTRAR ######################### */
+
+     
+
+     .form{width: 45%}
+
+     .menuLogin{ width: 40%}
+
+}
+
+@media (max-width:730px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 250px; 
+         left:100px;
+         font-size: 14px;
+         height: 40px;
+     }
+}
+
+@media (max-width:708px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 240px; 
+         left:100px;
+         font-size: 14px;
+         height: 40px;
+     }
+}
+@media (max-width:688px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 230px; 
+         left:90px;
+         font-size: 14px;
+         height: 40px;
+     }
+
+     /* ########################## LINKS ENTRAR E CADASTRAR ######################### */
+
+     
+
+     .form{width: 50%}
+
+     .menuLogin{ width: 45%}
+}
+
+@media (max-width:658px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 220px; 
+         left:90px;
+         font-size: 14px;
+         height: 40px;
+     }
+
+     #TextoH1{font-size: 9px}
+     
+}
+
+@media (max-width:630px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 210px; 
+         left:90px;
+         font-size: 14px;
+         height: 40px;
+     }
+}
+
+@media (max-width:612px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 200px; 
+         left:90px;
+         font-size: 14px;
+         height: 40px;
+     }
+
+     #TextoH1{font-size: 8px}
+
+     /* ########################## LINKS ENTRAR E CADASTRAR ######################### */
+
+     
+
+     .form{width: 55%}
+
+     .menuLogin{ width: 50%}
+}
+
+@media (max-width:586px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 190px; 
+         left:90px;
+         font-size: 14px;
+         height: 40px;
+     }
+
+          /* ########### CHAMADAS DO SISTEMA ############## */
+
+          .container
+          {
+               margin-top: -150px;
+               display: flex;
+               flex-direction: column
+          }
+     
+          .container01, .container02
+          {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center
+               
+          }
+     
+          .conteudo
+          {
+               height: 200px;
+               width: 70%
+          }
+
+
+}
+
+@media (max-width:560px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 180px; 
+         left:90px;
+         font-size: 14px;
+         height: 40px;
+     }
+}
+
+@media (max-width:538px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 170px; 
+         left:90px;
+         font-size: 14px;
+         height: 40px;
+     }
+
+     #TextoH1{font-size: 7px}
+}
+
+@media (max-width:512px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 160px; 
+         left:80px;
+         font-size: 12px;
+         height: 40px;
+     }
+
+          /* ########### CHAMADAS DO SISTEMA ############## */
+
+          .container
+          {
+               margin-top: -150px;
+               display: flex;
+               flex-direction: column
+          }
+     
+          .container01, .container02
+          {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center
+               
+          }
+     
+          .conteudo
+          {
+               height: 200px;
+               width: 80%
+          }
+}
+
+@media (max-width:484px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 150px; 
+         left:80px;
+         font-size: 12px;
+         height: 40px;
+     }
+}
+
+@media (max-width:466px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 140px; 
+         left:70px;
+         font-size: 12px;
+         height: 40px;
+     }
+
+     #TextoH1{font-size: 6px}
+}
+
+@media (max-width:442px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 130px; 
+         left:70px;
+         font-size: 11px;
+         height: 40px;
+     }
+
+          /* ########### CHAMADAS DO SISTEMA ############## */
+
+          .container
+          {
+               margin-top: -300px;
+               display: flex;
+               flex-direction: column
+          }
+     
+          .container01, .container02
+          {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center
+               
+          }
+     
+          .conteudo
+          {
+               height: 250px;
+               width: 80%
+          }
+}
+
+
+@media (max-width:412px)
+{
+     
+     /* ############### SLIDE RESPONSIVO ########### */
+
+     #slide p
+     {
+         position: absolute;
+         top: 120px; 
+         left:60px;
+         font-size: 11px;
+         height: 40px;
+     }
+}
+
